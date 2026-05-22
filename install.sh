@@ -46,7 +46,9 @@ chmod +x * > /dev/null 2>&1
 
 echo -e "\n${GREEN}[+] ALL PACKAGES INSTALLED & CLONED SUCCESSFULLY!${NC}"
 echo -e "${YELLOW}[*] Launching run.py automatically... Please wait...${NC}\n"
-time.sleep(2)
+
+# FIXED: Changed Python time.sleep(2) to Bash sleep 2
+sleep 2
 
 # 6. Execute the main Python script automatically
 if [ -f "run.py" ]; then
