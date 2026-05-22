@@ -44,7 +44,7 @@ fi
 
 # Python Script 'script.py'  Permission
 if [ -f "script.py" ]; then
-    chmod +x script.py
+    chmod +x snf.py
 fi
 
 echo -e "\n${YELLOW}=====================================================${NC}"
